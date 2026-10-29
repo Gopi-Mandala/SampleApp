@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# Environment files — real secrets must never be committed
+.env
+.env.development
+.env.stage
+.env.production
+
+# .env.example is intentionally NOT ignored (it must be tracked by git)
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Test coverage
+coverage/
